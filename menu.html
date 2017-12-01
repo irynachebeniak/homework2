@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Menu</title>
+    <link rel="icon" href="images/favicon.jpg" type="image/jpg">
+</head>
+
+<body>
+    <form action="https://formspree.io/tatsiy.i@gmail.com" method="POST">
+        <h1>For your best eating experience, please fill in the form:</h1>
+        <fieldset>
+            <legend>Favourite meals</legend>
+            <ol>
+                <li>Meat
+                    <br>
+                    <label>
+                            <input type="radio" name="meat" value="pork"/>
+                            Pork
+                        </label>
+                    <br>
+                    <label>
+                            <input type="radio" name="meat" value="chicken"/>
+                            Chicken
+                        </label>
+                    <br>
+                    <label>
+                            <input type="radio" name="meat" value="other" checked/>
+                            Other
+                        </label>
+                </li>
+                <br>
+                <li>
+                    <label>Rare?
+                            <input type="radio" name="rare" value="yes" checked/>
+                            yes
+                        </label>
+                    <label>
+                            <input type="radio" name="rare" value="no"/>
+                            no
+                        </label>
+                </li>
+                <br>
+                <li>
+                    <label>
+                            Side dish:
+                            <select name="side-dish">
+                                <option value="1">Rice</option>
+                                <option value="2">Fries</option>
+                                <option value="3">Salad</option>
+                            </select>
+                        </label>
+                </li>
+            </ol>
+        </fieldset>
+        <br>
+        <input type="reset" value="Discard" />
+        <input type="submit" value="Send" />
+    </form>
+
+</body>
+
+</html>
